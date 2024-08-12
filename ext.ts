@@ -2,31 +2,20 @@
 namespace MakeyMakey {
     export enum MakeyMakeyKey {
         //% block="UP ARROW"
-        UP = keymap.KeyCode.UpArrow,
+        UP = keymap.KeyCode.KeyCode.A,
         //% block="DOWN ARROW"
-        DOWN = keymap.KeyCode.DownArrow,
+        DOWN = keymap.KeyCode.KeyCode.S,
         //% block="LEFT ARROW"
-        LEFT = keymap.KeyCode.LeftArrow,
+        LEFT = keymap.KeyCode.KeyCode.D,
         //% block="RIGHT ARROW"
-        RIGHT = keymap.KeyCode.RightArrow,
+        RIGHT = keymap.KeyCode.KeyCode.F,
         //% block="SPACE"
-        SPACE = keymap.KeyCode.Space,
+        SPACE = keymap.KeyCode.KeyCode.G,
         //% block="LEFT CLICK"
-        LEFT_CLICK = keymap.KeyCode.MouseLeftButton,
+        LEFT_CLICK = keymap.KeyCode.KeyCode.H,
         //% block="RIGHT CLICK"
-        RIGHT_CLICK = keymap.KeyCode.MouseRightButton,
-        //% block="W"
-        W = keymap.KeyCode.W,
-        //% block="A"
-        A = keymap.KeyCode.A,
-        //% block="S"
-        S = keymap.KeyCode.S,
-        //% block="D"
-        D = keymap.KeyCode.D,
-        //% block="F"
-        F = keymap.KeyCode.F,
-        //% block="G"
-        G = keymap.KeyCode.G
+        RIGHT_CLICK = keymap.KeyCode.KeyCode.J,
+
     }
 
     function MakeyMakeyKeyToKeyCode(makeyMakeyKey: MakeyMakeyKey) {
